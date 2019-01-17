@@ -8,14 +8,14 @@ router.get('/', function(req,res){
     res.sendFile(path.join(__dirname+'/index.html'));
 });
 
-//route for about page
+//route for list page
 router.get('/list', function(req,res){
     res.sendFile(path.join(__dirname+'/list.html'));
 });
 
-//route for contact page
-router.get('/about', function(req,res){
-    res.sendFile(path.join(__dirname+'/about.html'));
+//route for login page
+router.get('/login', function(req,res){
+    res.sendFile(path.join(__dirname+'/login.html'));
 });
 
 //sets up server
