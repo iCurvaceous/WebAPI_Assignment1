@@ -1,0 +1,14 @@
+{
+  "name": "webapi_assignment1",
+  "version": "1.0.0",
+  "description": "assignment1 of web api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iCurvaceous",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
